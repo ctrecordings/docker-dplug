@@ -4,7 +4,7 @@ WORKDIR /temp
 ENV \ 
     COMPILER=ldc \
     COMPILER_VERSION=1.17.0 \
-    DPLUG_VERSION=9.0.8
+    DPLUG_VERSION=9.0.9
 
 # Install packages needed for installing ldc and dplug-build
 RUN apt update \
